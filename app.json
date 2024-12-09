@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PeriodiChem",
+    "slug": "PeriodiChem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFFF"
+      },
+      "package": "com.monicaangelah.PeriodiChem"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "172daee0-5899-429d-8297-db0f8ef8bcef"
+      }
+    }
+  }
+}
